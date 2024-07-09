@@ -4,7 +4,8 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 /* Shared CSS style here */
-.banner-description,.web-dev-section-description,.inspiration-section-dsescription{
+.banner-description,.web-dev-section-description,.inspiration-section-dsescription,
+.target-section-description{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -14,7 +15,7 @@ body{
     opacity: 0.7;
 }
 
-.web-dev-section-title, .inspiration-section-title{
+.web-dev-section-title, .inspiration-section-title, .target-section-title{
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -160,4 +161,75 @@ header{
 iframe{
     border-radius: 16px;
     margin: 15px 0px;
+}
+
+/* inspiration-section styles ends here */
+
+/* target-section styles starts here */
+.target-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 180px;
+}
+.target-skill-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.target-section-description{
+    padding: 29px 0px;
+}
+.target-one{
+    width: 28%;
+    /* border: 2px solid red; */
+    padding: 30px;
+}
+.target-one-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    /* text-align: left; */
+    margin-left: 8px;
+}
+.target-one-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 8px;
+    opacity: 0.7;
+}
+
+
+a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin-left: 8px;
+}
+.one-box{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.two-box{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.three-box{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }
