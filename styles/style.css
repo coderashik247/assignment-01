@@ -5,7 +5,7 @@ body{
 }
 /* Shared CSS style here */
 .banner-description,.web-dev-section-description,.inspiration-section-dsescription,
-.target-section-description{
+.target-section-description,.support-section-description{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -15,7 +15,7 @@ body{
     opacity: 0.7;
 }
 
-.web-dev-section-title, .inspiration-section-title, .target-section-title{
+.web-dev-section-title, .inspiration-section-title, .target-section-title,.support-section-title{
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -232,4 +232,34 @@ a{
 .three-box{
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+}
+
+
+/* support section starts here */
+.support-section{
+    background-image: url(/assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+    width: 85%;
+    margin: 0 auto;
+    height: 450px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5);
+    /* padding: 220px; */
+}
+.support-section-title,.support-section-description{
+    color:rgb(255, 255, 255);
+}
+input[type="text"]{
+    width: 728px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    padding: 19px 20px 19px 20px;
+}
+.support-section-title{
+    padding-top: 64px ;
 }
