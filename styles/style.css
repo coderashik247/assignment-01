@@ -4,7 +4,7 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 /* Shared CSS style here */
-.banner-description,.web-dev-section-description{
+.banner-description,.web-dev-section-description,.inspiration-section-dsescription{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -12,6 +12,15 @@ body{
     text-align: center;
     padding: 0 160px;
     opacity: 0.7;
+}
+
+.web-dev-section-title, .inspiration-section-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 0px;
+    text-align: center;
 }
 
 
@@ -77,13 +86,7 @@ header{
     background: rgba(13, 19, 33, 0.1);
     gap: 35px;
 }
-.web-dev-section-title{
-    color: rgb(13, 19, 33);
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 37px;
-    margin-bottom: 0px;
-}
+
 .first-web-dev{
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
@@ -132,4 +135,29 @@ header{
     letter-spacing: 0%;
     text-align: center;
     padding: 12px 20px 12px 20px;
+}
+
+/* inspiration-section styles starts here */
+.inspiration-section{
+    padding-top: 120px;
+    width: 85%;
+    margin: 0 auto ;
+}
+.inspiration-section-dsescription{
+    padding:30px 50px 80px;    
+}
+.video-box{
+    /* border: 2px solid red; */
+    padding: 20px 0px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+iframe{
+    border-radius: 16px;
+    margin: 15px 0px;
 }
