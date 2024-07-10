@@ -27,7 +27,7 @@ body{
 
 /* banner-section styles starts here */
 header{
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(./assets/Hero-bg.png);
     height: 865px;
     /* height: 652px; */
 }
